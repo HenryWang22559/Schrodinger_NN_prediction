@@ -12,6 +12,10 @@ The time-independent Schrödinger equation, `Ĥψ(x) = Eψ(x)`, where `Ĥ = -ħ�
 
 $$ \hat{H} \psi(x) = E \psi(x) $$
 
+**For a 1D Particle:**
+
+$$ \left( -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + V(x) \right) \psi(x) = E \psi(x) $$
+
 
 
 ## Visualization
