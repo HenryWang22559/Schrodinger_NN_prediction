@@ -2,6 +2,27 @@
 
 This project uses a Fully Connected Neural Network (FCNN) implemented in PyTorch to predict the ground state wavefunction of the 1D Schrodinger equation based on the potential.
 
+## The Equation
+
+The equation is typically written as:
+
+```latex
+$$ \hat{H} \psi(x) = E \psi(x) $$
+```
+
+For a single non-relativistic particle in one dimension moving in a potential `V(x)`, the Hamiltonian operator `\hat{H}` is:
+
+```latex
+$$ \hat{H} = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + V(x) $$
+```
+
+So the full equation becomes:
+
+```latex
+$$ \left( -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + V(x) \right) \psi(x) = E \psi(x) $$
+```
+
+
 
 ## Visualization
 ### Training and Validation Loss
