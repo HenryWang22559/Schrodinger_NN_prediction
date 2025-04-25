@@ -15,8 +15,14 @@ This project uses a Fully Connected Neural Network (FCNN) implemented in PyTorch
 *   Plots example predictions against the ground truth for the test set, including the input potential (saved to `outputs/`).
 
 ## Visualization
+### Training and Validation Loss
 
-![Figure_vortex](./outputs/fcnn_train_validation_loss.png "Training and Validation Loss")
+![Figure_loss](./outputs/fcnn_train_validation_loss.png "Training and Validation Loss")
+
+### Comparison of prediction and numerical solution in test sets
+
+![Figure_predict1](./outputs/fcnn_prediction_sample_6799.png "prediction 1")
+![Figure_predict2](./outputs/fcnn_prediction_sample_7599.png "prediction 2")
 
 ## Project Structure
 
