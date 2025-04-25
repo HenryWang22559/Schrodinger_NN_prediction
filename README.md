@@ -14,6 +14,10 @@ This project uses a Fully Connected Neural Network (FCNN) implemented in PyTorch
 *   Saves the best performing model state (`_best.pth`) or the final model state (`_final.pth`) to `outputs/`.
 *   Plots example predictions against the ground truth for the test set, including the input potential (saved to `outputs/`).
 
+## Visualization
+
+![Figure_vortex](./outputs/fcnn_train_validation_loss.png "Training and Validation Loss")
+
 ## Project Structure
 
 ```
