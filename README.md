@@ -2,24 +2,9 @@
 
 This project uses a Fully Connected Neural Network (FCNN) implemented in PyTorch to predict the ground state wavefunction of the 1D Schrodinger equation based on the potential.
 
-## The Equation
+##Time-Independent Schrödinger Equation Summary
 
-The equation is typically written as:
-
-
-$$ \hat{H} \psi(x) = E \psi(x) $$
-
-
-For a single non-relativistic particle in one dimension moving in a potential `V(x)`, the Hamiltonian operator `\hat{H}` is:
-
-
-$$ \hat{H} = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + V(x) $$
-
-
-So the full equation becomes:
-
-
-$$ \left( -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + V(x) \right) \psi(x) = E \psi(x) $$
+The time-independent Schrödinger equation, `Ĥψ(x) = Eψ(x)`, where `Ĥ = -ħ²/2m d²/dx² + V(x)` is the Hamiltonian operator, is used to find the stationary state wavefunctions `ψ(x)` and their corresponding quantized energies `E` for a particle of mass `m` in a potential `V(x)`. Solving this equation provides the allowed energy levels and the probability density `|ψ(x)|²` of finding the particle at position `x`. The ground state (`ψ₀(x)`, `E₀`) is the solution with the lowest possible energy, representing the system's most stable configuration.
 
 
 
